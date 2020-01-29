@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "grocery-list-dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false,
+    "operatorAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "grocery-list-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false,
+    "operatorAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "use_env_variable": "DATABASE_URL",
+    "db": "process.env.postgres://gtrgjpbrpynlnq:f4ccaf25f4a12945164d5453e4fac44a0b08b3fbd3039d1f8a31fcecbea3b577@ec2-54-243-197-120.compute-1.amazonaws.com:5432/dc3f6ck23lpvaq"
+  }
+}
