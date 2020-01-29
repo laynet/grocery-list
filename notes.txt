@@ -1,0 +1,12 @@
+psql -U postgres (!to get into postgres)
+\l to list db
+\c to connect to a db - ***mint-century(this is the dev) and mint-century-test***
+\dt to list table names
+
+
+
+follow this link https://developers.sap.com/tutorials/webide-github-merge-pull-request.html and then do
+Laynes-MacBook-Pro:mint-century laynetaylor$ git pull origin master after merging to hand in assignment
+
+$ sequelize db:migrate:undo:all && sequelize db:migrate:undo:all --env test
+$ sequelize db:migrate && sequelize db:migrate --env test
