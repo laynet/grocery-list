@@ -10,3 +10,5 @@ Laynes-MacBook-Pro:mint-century laynetaylor$ git pull origin master after mergin
 
 $ sequelize db:migrate:undo:all && sequelize db:migrate:undo:all --env test
 $ sequelize db:migrate && sequelize db:migrate --env test
+
+
