@@ -4,10 +4,17 @@
     <% include ./partials/head.ejs %>
     <body>
       <% include ./partials/navbar.ejs %>
-      <h1>
-        INDEX TODO
-      </h1>
-      <% include ./partials/baseScripts.ejs %>
+      <main class="container">
+        <header class="jumbotron my-4">
+          <h1 class="display-3">Welcome to #listfam</h1>
+          <p class="lead">
+            describe some shit about the list here
+          </p>
+          <a href="users/signup" class="btn btn-primary btn-lg">Sign up</a>
+        </header>
+      </main>
+
+      <% include ./partials/baseScripts.ejs%>
     </body>
   </head>
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../static/partials/head.ejs %>
+    <body>
+      <% include ../static/partials/navbar.ejs %>
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >sign in to connect with your #listfam</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+
+          <a class="btn btn-primary btn-lg" type="submit">
+            Sign Up!
+          </a>
+        </form>
+      </div>
+      <% include ../static/partials/baseScripts.ejs %>
+    </body>
+  </head>
+</html>
