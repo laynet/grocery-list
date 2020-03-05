@@ -1,5 +1,4 @@
-index
-<a href="/users/signup" class="btn btn-primary btn-lg">Sign up</a>
+
 
 psql -U postgres (!to get into postgres)
 \l to list db

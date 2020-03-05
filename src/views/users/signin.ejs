@@ -6,8 +6,8 @@
   <body>
     <% include ../static/partials/navbar.ejs %>
     <main class="container">
-      <h1>Sign up</h1>
-      <form action="/users" method="post">
+      <h1>Sign in</h1>
+      <form action="/users/signin" method="post">
         <div class="form-group">
           <label for="email">Email</label>
           <input
@@ -15,7 +15,7 @@
             class="form-control"
             name="email"
             aria-describedby="emailHelp"
-            placeholder="Enter email"
+            placeholder="Enter emai"
           />
           <small class="text-muted" id="emailHelp"
             >email address must be a valid address</small
@@ -36,18 +36,7 @@
           >
         </div>
 
-        <div class="form-group">
-          <label for="passwordConfirmation">Password confirmation</label>
-          <input
-            type="password"
-            class="form-control"
-            name="passwordConfirmation"
-            aria-describedby="passwordHelp"
-            placeholder="Enter password confirmation"
-          />
-        </div>
-
-        <button type="submit" class="btn btn-primary">Sign up</button>
+        <button type="submit" class="btn btn-primary">Sign in</button>
       </form>
     </main>
     <% include ../static/partials/baseScripts.ejs %>
