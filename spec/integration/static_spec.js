@@ -4,10 +4,10 @@ const base = "http://localhost:3000";
 
 describe("routes : static", () => {
   describe("GET /", () => {
-    it("shoudl return status code 200 and have 'INDEX TODO' in the body of the response ", done => {
+    it("shoudl return status code 200 and have 'Welcome to ListFam' in the body of the response ", done => {
       request.get(base, (err, res, body) => {
         expect(res.statusCode).toBe(200);
-        expect(body).toContain("INDEX TODO");
+        expect(body).toContain("Welcome to ListFam");
         done();
       });
     });
